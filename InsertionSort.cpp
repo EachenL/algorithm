@@ -7,7 +7,7 @@ void InsetionSort(int a[], int size) {
             if(a[j] > a[i]) {//比较外层循环选定的数
                 int tmp = a[i];
                 for (int k = i; k > j; k--)
-                    a[k] = a[k-1];
+                    a[k] = a[k-1];//把a[i]放到位置j,原下标j到i-1的元素都往后移一位
                 a[j] = tmp;
                 break;
             }
