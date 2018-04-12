@@ -1,6 +1,9 @@
 #include <iostream>
-
+//#include "ChickenAndRubbits.cpp"
+using namespace std;
+int CAR();
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    CAR();
     return 0;
 }
+
