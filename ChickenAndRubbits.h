@@ -1,0 +1,8 @@
+//
+// Created by markning on 4/13/18.
+//
+
+#ifndef ALGORITHM_CHICKENANDRUBBITS_H
+#define ALGORITHM_CHICKENANDRUBBITS_H
+void CAR();
+#endif //ALGORITHM_CHICKENANDRUBBITS_H

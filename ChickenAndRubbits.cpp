@@ -1,9 +1,10 @@
 //
 // Created by markning on 4/12/18.
-//
+//POJ 3237
 #include<iostream>
 using namespace std;
-int CAR(){
+
+void CAR(){
     int nCases, nFeets;
     while((cin>>nCases)){
         for(int i = 0;i <nCases; i++){
